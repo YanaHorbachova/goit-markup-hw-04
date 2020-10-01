@@ -17,6 +17,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+
 /* Утилиты */
 ul {
   list-style: none;
@@ -33,6 +34,20 @@ img {
   display: block;
 }
 
+
+/* SOCIAL LINK */
+.social-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+
+
 /* CONTEINER */
 .conteiner {
   width: 1200px;
@@ -40,6 +55,7 @@ img {
   padding: 0px 15px;
   outline: 2px solid tomato;
 }
+
 
 /* SECTION */
 .section-title {
@@ -59,6 +75,7 @@ img {
   padding-bottom: 94px;
 }
 
+
 /* LOGO */
 .logo {
   color: var(--accent-collor);
@@ -72,6 +89,7 @@ img {
 .logo-header {
   color: var(--title-text-collor);
 }
+
 
 /* NAV */
 .nav {
@@ -105,6 +123,7 @@ img {
   color: var(--accent-collor);
 }
 
+
 /* CONTACTS-NAV */
 .contacts-nav {
   display: flex;
@@ -130,6 +149,7 @@ img {
 .contacts:focus {
   color: var(--accent-collor);
 }
+
 
 /* FOOTER */
 .footer {
@@ -163,6 +183,10 @@ img {
   font-style: normal;
   text-decoration: none;
 }
+.footer .social-list {
+  margin-left: 70px;
+  margin-right: 94px;
+}
 .title.social {
   margin-bottom: 20px;
   font-weight: 700;
@@ -171,19 +195,7 @@ img {
   text-transform: uppercase;
   color: var(--white-collor);
 }
-.social-link {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-size: 20px;
-  background-position: center;
-}
-.instagram {
-  background-image: url();
-}
+
 
 /* BUTTON */
 .button {
@@ -227,6 +239,15 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),
+    url(../images/header/Img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-title {
   margin-top: 0px;
@@ -238,6 +259,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 
 /* FEATURES */
 .features {
@@ -262,10 +284,12 @@ img {
   line-height: 1.71;
 }
 
+
 /* SERVICES */
 .services {
   display: flex;
 }
+
 
 /* TEAM */
 .team {
@@ -297,6 +321,7 @@ img {
   border-top: 0px;
   border-radius: 0px 0px 4px 4px;
 }
+
 
 /*MAIN Portfolio*/
 .portfolio-nav {
