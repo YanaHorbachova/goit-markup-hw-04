@@ -53,7 +53,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0px 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 
@@ -195,7 +195,22 @@ img {
   text-transform: uppercase;
   color: var(--white-collor);
 }
-
+.footer .social-link:hover,
+.footer .social-link:focus {
+  background-color: var(--accent-collor);
+}
+.footer .instagram  {
+  background-image: url(../images/icon/instagram-footer.svg);
+}
+.footer .twitter {
+  background-image: url(../images/icon/twitter-footer.svg);
+}
+.footer .facebook {
+  background-image: url(../images/icon/facebook-footer.svg);
+}
+.footer .linkedin {
+  background-image: url(../images/icon/linkedin-footer.svg);
+}
 
 /* BUTTON */
 .button {
@@ -274,6 +289,7 @@ img {
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--background-button);
+  border-radius: 4px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -344,6 +360,17 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+
+/* CLIENTS */
+.clients{
+  display: flex;
+}
+.clients .item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
 
 /*MAIN Portfolio*/
 .portfolio-nav {
